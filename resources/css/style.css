@@ -1,0 +1,74 @@
+h2, p{
+    text-align: center;
+}
+body{
+    padding-top: 150px;
+    background-color: #070e29;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.container{
+    background-color: #142875;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2a54f5;
+    padding-bottom: 20px;
+}
+.error{
+    color: red;
+}
+table{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid #070e29;
+    padding-top:  20px;
+}
+thead{
+    background-color: #070e29;
+    color:#ffffff;
+}
+input[type="number"] {
+    width: 60%;
+}
+#fact td{
+    text-align: center;
+    background-color: #2a54f5;
+}
+input[type="button"] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display:block;
+    background-color:#2a54f5;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:2px solid #2347cf;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size: 14px;
+    padding: 16px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #070e29;
+}
+input[type="button"]:hover {
+    background-color: #42f940;
+}
+input[type="button"]:active {
+    position: relative;
+    top: 1px;
+}
+
+#u, #p{
+    margin:0 auto;
+    display:block;
+}
+label{
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet"
+          type="text/css"
+          href="resources/css/style.css">
+    <script src="resources/js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onload="cart()">
+
+<div class="container">
+    <h2 id="user">Bienvenido, </h2>
+
+    <table>
+        <caption>Estos son los productos disponibles.</caption>
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>A Comprar</th>
+        </tr>
+        </thead>
+        <tbody id="tabla">
+        </tbody>
+    </table>
+
+    <div id="total"></div>
+
+    <input type="button"
+           value="Comprar articulos"
+           onclick="purchase()"/>
+
+    <div id="compra"></div>
+</div>
+
+</body>
+</html>

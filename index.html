@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+    <script src="resources/js/scripts.js"></script>
+    <link rel="stylesheet"
+          type="text/css"
+          href="resources/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Hecho por Jorge Sarmiento el 12 de Noviembre del 2015.</h2>
+    <p>Pueden ingresar cualquier username/password, el cual será validado.</p>
+
+    <label for="u">Username: </label>
+    <input id="u"
+           type="text"
+           placeholder="Username" autofocus/><br>
+    <div class="error"
+         id="erruser"></div>
+
+    <label for="p">Password: </label>
+    <input id="p"
+           type="password"
+           placeholder="Password"/><br>
+    <div class="error"
+         id="errpw"></div>
+    <input type="button"
+           value="Log In"
+           onclick="login()"/>
+</div>
+
+</body>
+</html>
